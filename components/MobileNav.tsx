@@ -27,15 +27,17 @@ export default function MobileNav() {
           />
         </SheetTrigger>
         <SheetContent side="left" className="border-none bg-dark-1">
-          <Link href="/" className="flex items-center gap-1">
-            <Image
-              src="/icons/logo.svg"
-              alt="Yoom Logo"
-              height={32}
-              width={32}
-            />
-            <p className="text-[26px] font-extrabold text-white">Yoom</p>
-          </Link>
+          <SheetClose asChild>
+            <Link href="/" className="flex items-center gap-1">
+              <Image
+                src="/icons/logo.svg"
+                alt="Greet Logo"
+                height={32}
+                width={32}
+              />
+              <p className="text-[26px] font-extrabold text-white">Greet</p>
+            </Link>
+          </SheetClose>
           <div className="flex h-[clac(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
               <section className="flex flex-col h-full gap-6 pt-16 text-white">

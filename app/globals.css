@@ -78,6 +78,10 @@
   color: white;
 }
 
+.cl-socialButtonsIconButton {
+  background-color: #252a41;
+}
+
 /* =============================== */
 
 @layer utilities {
@@ -109,8 +113,4 @@
     animation-timing-function: ease-in;
     width: 100%;
   }
-}
-
-.cl-socialButtonsIconButton {
-  background-color: #252a41;
 }

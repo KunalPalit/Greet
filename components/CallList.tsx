@@ -69,6 +69,7 @@ export default function CallList({
   }, [type, callRecordings]);
 
   if (isLoading) return <Loader />;
+
   const calls = getCalls();
   const noCallsMessage = getNoCallsMessage();
 

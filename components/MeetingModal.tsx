@@ -3,14 +3,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 // shadcn/ui components
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Button } from "./ui/button";
 
 interface MeetingModalProps {
@@ -35,9 +28,7 @@ export default function MeetingModal({
   children,
   handleClick,
   buttonText,
-  instantMeeting,
   image,
-  buttonClassName,
   buttonIcon,
 }: MeetingModalProps) {
   return (

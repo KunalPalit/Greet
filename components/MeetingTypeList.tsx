@@ -155,8 +155,10 @@ export default function MeetingTypeList() {
       <MeetingModal
         isOpen={meetingState === "isInstantMeeting"}
         onClose={() => setMeetingState(undefined)}
-        title="Create Meeting"
+        title="Start an Instant Meeting"
         handleClick={createMeeting}
+        className="text-center"
+        buttonText="Start Meeting"
       />
 
       <MeetingModal
