@@ -44,7 +44,7 @@ export default function RootLayout({
             colorInputText: "#fff",
           },
           layout: {
-            logoImageUrl: "/icons/greet-logo.svg",
+            logoImageUrl: "/icons/greet-logo.png",
             socialButtonsVariant: "iconButton",
           },
         }}
