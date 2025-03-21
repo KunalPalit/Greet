@@ -27,8 +27,8 @@ export const useGetCalls = () => {
         });
 
         setCalls(calls);
-      } catch (error) {
-        console.error(error);
+      } catch {
+        console.error("Failed to load calls");
       } finally {
         setIsLoading(false);
       }

@@ -13,6 +13,7 @@ import Alert from "@/components/Alert";
 
 export default function Meeting() {
   const { id } = useParams();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const { user, isLoaded } = useUser();
   const [isSetupComplete, setIsSetupComplete] = useState(false);
   const { call, isCallLoading } = useGetCallById(id);
